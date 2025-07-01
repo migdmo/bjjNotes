@@ -21,4 +21,10 @@ public:
     void set_defences(int session_defences);
 
     void get_positions();
+    std::string get_date();
+    std::string get_description();
+    std::string get_insights();
+    int get_rolls();
+    int get_passes();
+    int get_defences();
 };
