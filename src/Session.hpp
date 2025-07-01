@@ -12,19 +12,12 @@ private:
     int rolls, passes, defences;
     
 public:
-    void set_date(std::string session_date);
-    void set_position(std::string position);
-    void set_description(std::string description);
-    void set_insights(std::string session_insights);
-    void set_rolls(int session_rolls);
-    void set_passes(int session_passes);
-    void set_defences(int session_defences);
-
-    void get_positions();
-    std::string get_date();
-    std::string get_description();
-    std::string get_insights();
-    int get_rolls();
-    int get_passes();
-    int get_defences();
+    Session(std::string date, std::vector<std::string> positions, std::string insights, int rolls, int passes, int defences);
+    void get_positions() const;
+    std::string get_date() const;
+    std::string get_description() const;
+    std::string get_insights() const ;
+    int get_rolls() const;
+    int get_passes() const ;
+    int get_defences() const ;
 };
