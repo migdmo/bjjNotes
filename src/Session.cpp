@@ -20,12 +20,3 @@ std::string Session::get_date() const {
 std::string Session::get_insights() const {
     return insights;
 }
-int Session::get_rolls() const {
-    return rolls;
-}
-int Session::get_passes() const {
-    return passes;
-}
-int Session::get_defences() const{
-    return defences;
-}
