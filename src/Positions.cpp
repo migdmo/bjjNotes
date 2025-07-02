@@ -1,5 +1,6 @@
 #include "Positions.hpp"
 #include <iostream>
+
 Positions::Positions(std::vector<std::string> positions, std::string position_description):
 positions(positions),
 position_description(position_description)

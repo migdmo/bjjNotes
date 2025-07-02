@@ -2,13 +2,11 @@
 
 #include "Session.hpp"
 
-Session::Session(std::string date,Positions positions, std::string insights, int rolls, int passes, int defences):
+Session::Session(std::string date,Positions positions, std::string insights, Rolls rolls):
     date(date),
     positions(positions),
     insights(insights),
-    rolls(rolls),
-    passes(passes),
-    defences(defences)
+    rolls(rolls)
 {
 }
 
